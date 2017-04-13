@@ -1,0 +1,143 @@
+
+.header
+{
+  height: 80px;
+  background: green;
+}
+.row,
+.main_container,
+.header_menu
+{
+  height: 100%;
+}
+.width-align--middle
+{
+  vertical-align: middle;
+  height: 100%;
+}
+.logo
+{
+ /* background: #00b3ee;*/
+}
+.header_menu
+{
+  background: #f0ad4e;
+}
+.header_menu:before
+{
+  height: 100%;
+  content: "";
+  font-size: 0;
+  width: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu,
+.gallery_list
+{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: justify;
+  white-space: normal;
+  vertical-align: middle;
+  & .menu_item
+  {
+    display: inline-block;
+    margin: 5px;
+    & .menu_linc
+    {
+      font-size: 14px;
+      display: inline-block;
+      background: #f96;
+      padding: 5px 5px;
+      color: #fff;
+      border-radius:5px;
+      box-shadow: 2px 2px 0 0 #298;
+      text-decoration: none;
+      transition: background, box-shadow .3s,.3s;
+    }
+    & .menu_linc:hover
+    {
+      background: #f55;
+      box-shadow: 2px 0px 0 0 #298;
+    }
+  }
+}
+.menu:after
+{
+  content: "";
+  width:100%;
+  display: inline-block;
+  font-size: 0;
+  height: 0;
+}
+.main_content
+{
+  background: #f2dede;
+}
+.menu_list
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-size:0;
+  display: inline-block;
+  float: left;
+  & .menu_item
+  {
+    display: block;
+    margin: 5px;
+    & .menu_linc
+    {
+      font-size: 14px;
+      display: inline-block;
+      background: #f96;
+      padding: 5px 5px;
+      color: #fff;
+      border-radius:5px;
+      box-shadow: 2px 2px 0 0 #298;
+      text-decoration: none;
+      transition: background, box-shadow .3s,.3s;
+    }
+    & .menu_linc:hover
+    {
+      background: #f55;
+      box-shadow: 2px 0px 0 0 #298;
+    }
+  }
+}
+.gallery_img
+{
+  max-width: 100%;
+  height:auto;
+  margin-bottom: 10px;
+}
+.main_form
+{
+  display: block;
+  width: 400px;
+  background: #f0f0f0;
+  border: 1px solid #a8bcc3;
+  margin: 20px auto;
+  padding:20px 20px;
+}
+.header_form
+{
+  & label
+  {
+    font: bold 12px/1.5 Arial,Verdana,Tahoma,sans-serif;
+    color: #f0ad4e;
+  }
+}
+.footer
+{
+  height: 100px;
+  background: #d6ffa0;
+  clear: both;
+}
